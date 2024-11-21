@@ -43,7 +43,7 @@ El objetivo de este proyecto fue diseñar e implementar un sistema inteligente c
   - **Caída:** 98.7%.
 
 ### 3. **Implementación del Modelo**
-- Se desplegó el modelo entrenado en el microcontrolador Arduino, configurado para procesar y clasificar datos en tiempo real. Para realizar este despligue, la página de edge impulse cuenta con un apartado llamado despliegue en donde se debe seleccionar descargar el archivo como librería de arduino, lo que nos descargará un archivo .zip que debe ser agregado en las librerías del IDE de arduino, posterior a esto en un nuevo sketch de agrega el código del archivo .ino de este repositorio que se basa en el ejemplo de arduino con el nano 33 BLE sense que cuenta con un ejemplo del acelerómetro.
+- Se desplegó el modelo entrenado en el microcontrolador Arduino, configurado para procesar y clasificar datos en tiempo real. Para realizar este despligue, la página de edge impulse cuenta con un apartado llamado despliegue en donde se debe seleccionar descargar el archivo como librería de arduino, lo que nos descargará un archivo .zip que debe ser agregado en las librerías del IDE de arduino (esta librería es el archivo .zip que se encuentra en este repositorio), posterior a esto en un nuevo sketch de agrega el código del archivo .ino de este repositorio que se basa en el ejemplo de arduino con el nano 33 BLE sense que cuenta con un ejemplo del acelerómetro.
 
 ### 4. **Desarrollo de la Aplicación Móvil**
 - Creación de una aplicación en **App Inventor** que interactúa con el Arduino para recibir datos y activar alarmas.
